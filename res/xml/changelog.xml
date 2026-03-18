@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/lbl_changelog">
+
+    <PreferenceCategory android:title="@string/changelog_title">
+        <Preference
+            android:selectable="false"
+            android:summary="@string/changelog_intro" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/changelog_section_new">
+        <Preference
+            android:selectable="false"
+            android:summary="@string/changelog_new_body" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/changelog_section_works">
+        <Preference
+            android:selectable="false"
+            android:summary="@string/changelog_works_body" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/changelog_section_partial">
+        <Preference
+            android:selectable="false"
+            android:summary="@string/changelog_partial_body" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/changelog_section_disabled">
+        <Preference
+            android:selectable="false"
+            android:summary="@string/changelog_disabled_body" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
+
